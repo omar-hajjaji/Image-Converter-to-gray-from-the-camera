@@ -16,6 +16,7 @@ while True:
     event, values = window.read()
     print(event)
     print(values)
+    print(values)
 
     match event:
         case 'Add':

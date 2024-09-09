@@ -5,6 +5,7 @@ from PIL import Image
 camera_image = st.camera_input("Camera")
 
 # Create a pillow image instance:
+
 img = Image.open(camera_image)
 
 # Convert the pillow image to grayscale:
